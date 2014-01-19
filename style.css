@@ -1,0 +1,114 @@
+*{      margin:0;
+        padding:0;
+        border:0;
+        }
+  body{
+        width: 1000px;
+        height:1000px;
+        margin:0 auto;
+        font-family: Tahoma;
+        color:#fff;
+        padding-top:5pt;
+        }
+  table{
+        margin:0 auto;
+        text-align:center;
+        }
+  tr{vertical-align:top ;}
+  h1{
+        font-size:24pt;
+        padding-top:4pt;
+        padding-bottom:4pt;
+        font-weight: bold;
+  }
+  h2{
+        font-size:16pt;
+        padding-top:4pt;
+        padding-bottom:4pt;
+        font-weight: bold;
+  }
+  h3{
+        font-size:14pt;
+        padding-top:2pt;
+        padding-bottom:2pt;
+        font-weight: normal;
+  }
+  #sale{
+    padding-bottom:20pt;
+    //padding-top:8pt;
+  }
+  div#logo{
+        margin:0 auto;
+        width:200px;
+        height:56px;
+        }
+  div#top{
+        width:1000px;
+        height:350px;
+        background-color: rgb(255, 153, 0);
+        }
+  div#img_obereg{
+        position: relative;
+        left: 120px;
+        top:15px;
+        width:191px;
+        height:311px;
+  }
+  div#text{
+       position: relative ;
+       right: -400px;
+       top:-311px;
+       width:570px;
+       height:311px;
+       padding-top:30pt;
+  }
+  input{
+      width: 180px;
+      height: 27px;
+      line-height: 27px;
+      background-color: #fff;
+      vertical-align: middle;
+      color: rgb(255, 153, 0);
+      font-size: 16px;
+    }
+  #name,#email{ border: 1px none rgb(169, 169, 169);}
+  #send{
+      border: 2pt solid;
+      background-color: transparent;
+      color: #fff;
+      width: 200px;
+      height: 30px;
+      font-size: 19px
+  }
+.send:hover {
+    cursor: pointer;
+    text-shadow: black 1px 1px 2px, red 0 0 1em;
+}
+  #room{
+       background-image:url("images/room.jpg");
+       height:460px;
+  }
+
+  #td1,#td2,#td3{
+    background-repeat:no-repeat;
+    background-position:center center;
+    border:transparent;
+    text-align:center;
+    vertical-align:middle;
+    width: 356px;
+    height: 284px;
+  }
+
+  #td1{    background-image:url("images/pc.png")  ;}
+  #td2{    background-image:url("images/phone.png")  ;}
+  #td3{    background-image:url("images/obereg.png")  ;}
+
+  #footer{
+    text-align:center;
+    color:  rgb(255, 153, 0);
+    font-size:32px;
+  }
+  #count{
+     border: 2px solid rgb(255, 153, 0);
+     height: 33px;
+  }
